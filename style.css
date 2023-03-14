@@ -1,7 +1,47 @@
 body{
     margin:auto;
     padding: auto;
-    background-image : linear-gradient(rgba(99, 233, 159, 0.09), rgba(1, 28, 53, 0.7) );
+    background-image : linear-gradient(rgba(233, 157, 106, 0.5), rgba(1, 28, 53, 0.7) );
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#logo{
+    margin: 0.5rem;
+    border: 3px solid rgb(6, 102, 126);
+    border-radius: 50%;
+    height: 5rem;
+    width:5rem;
+}
+.nav-item{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin:auto;
+}
+#home{
+    margin:0.5rem;
+    padding: 1rem;
+
+}
+#bio{
+     
+    margin-left: 10rem;   
+    padding:1.5rem; 
+    
+    background: rgba(64, 85, 104, 0.9);
+    border: 2px solid #3ab5ca;
+    border-radius:25px;
+   
+    text-align: right;
+    color:  #e5faec;
+}
+#myPhoto{
+    width: 20rem;
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    padding: 1rem;
+    background: #e5faec;
+    border-radius: 50%;
+    border: 1px solid #3ab5ca;
 }
