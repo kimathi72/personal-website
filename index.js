@@ -33,8 +33,21 @@ function index () {
     
   }
 }
+function messages (){
+  let form = document.getElementById("contact-form");
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    console.log(e.target);
+    let name = document.querySelector("input#messengerName").value;
+    console.log(name);
+    let message = document.querySelector("textarea#messengerNote").value;
+    console.log(message);
+    alert(`Dear ${name}, your Message has been received`);
+    return true;
 
-
+  })
+}
+messages();
 document.addEventListener("DOMContentLoaded", index);
 
 

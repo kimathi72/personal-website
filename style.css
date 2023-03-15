@@ -61,3 +61,63 @@ div.form-group{
     margin:0.5rem;
     padding: 1rem;
 }
+.caption{
+    margin-top: 2.5%;    
+    padding:1.5rem; 
+    background: rgba(64, 85, 104, 0.9);
+    border: 2px solid #3ab5ca;
+    border-radius:25px;
+    height: 20rem; 
+    width: 60rem; 
+    text-align: center;
+    color:  #4cce77;
+}
+
+#skillsList{
+    display:flex;
+    justify-content: center;
+    border-radius:25px;
+    margin: 0.1rem;
+    height:auto;
+}
+.card{
+    margin: 1rem;
+    border-radius:25px;
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    background: rgba(251, 253, 249, 0.9);;
+}
+.card-body{
+    border-radius:25px;
+    height: 5rem;
+  
+
+}
+#htmlLogo{
+    background-image: url("./html5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#reactLogo{
+    background-image: url("./react.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+    
+}
+
+#rubyLogo{
+    background-image: url("./ruby.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#gitLogo{
+    background-image: url("./git.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
